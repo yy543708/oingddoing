@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>또잉위키</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="varify.js" defer></script>
+        <script src="users.js" defer></script>
+    </head>
+    <body>
+        <div class="title">
+            <span>또잉위키</span> 
+        </div>
+        <div>
+            <h1 class="mainText">또잉위키에 오신 것을 환영합니다!</h1>
+            <p class="explText">여기는 오잉또잉만의 위키, 또잉위키 입니다.<p>
+            <p class="explText">오잉또잉 구성원이라면 언제나 문서를 새로 생성하거나 작성하고, 수정할 수 있습니다.</p>
+            <p class="explText">또잉위키에 접근하려면 먼저 인증을 진행해야 합니다.</p>
+            <button id="varifyBtn">인증 진행하기</button>
+        </div>
+        <div id="loginModal">
+            <h1 id="loginModalTitle">또잉인증</h1>
+            <h2 style="text-align: center;
+                        font-weight: normal;
+                        font-size: 20px;">다음 중 자신의 프로필을 선택해 주세요.</h2>
+                        <div id = "users"></div>
+                        <label id = "loginCheckbox" style="text-align: center; color: white;">
+                            로그인
+                            (선택된 계정이 자신의 계정이 맞습니다.)
+                        </label>
+            <button id="closeLoginModalBtn">닫기</button>
+        </div>
+    </body>
+</html>
